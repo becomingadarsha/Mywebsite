@@ -1,0 +1,126 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	text-align: center;
+	background-color:coral;
+	color:#fff;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-image:url('../images/showcase-dark.jpg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+
+body {
+	margin: 0px;
+	background-color: black;
+	font-family: Helvetica Neue, Helvetica;
+	color: white; 
+	}
+
+body a {
+	color: orange;
+	text-decoration: none; }
+	body a:hover {
+	color: yellow; 
+	}
+body .content {
+	background: url("gitrdone.png") no-repeat top right;
+	height: 1398px;
+	width: 1600px;
+	margin: 0 0 0 auto;
+	padding-left: 50px; 
+	}
+body .content h1 {
+	font-weight: normal;
+	padding: 25px 0 0;
+	margin: 0px;
+	font-size: 130px; 
+}
+body .content p {
+	font-size: 17px;
+	margin: 5px 0 10px 10px;
+	padding: 0px; 
+}
+	
